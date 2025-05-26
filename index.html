@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deriv Trading Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Deriv Rise/Fall Tool</h1>
+
+    <label for="symbol">Select Volatility Index:</label>
+    <select id="symbol">
+      <option value="R_100">Volatility 100</option>
+      <option value="R_75">Volatility 75</option>
+      <option value="R_50">Volatility 50</option>
+      <option value="R_25">Volatility 25</option>
+      <option value="1HZ100V">1HZ Volatility 100</option>
+    </select>
+
+    <div class="price-display">Price: <span id="price">--</span></div>
+    <div class="trend" id="trend">Waiting for trend...</div>
+
+    <div class="trade-buttons">
+      <button id="buy-rise">Buy Rise</button>
+      <button id="buy-fall">Buy Fall</button>
+    </div>
+
+    <div class="log" id="log">Trade activity will show here.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0c1023;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1b1f3b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  background: #2a2d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.price-display {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.trend {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.trade-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #00ffd5;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #00c9ad;
+}
+
+.log {
+  background: #111;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  color: #ccc;
+  text-align: left;
+  max-height: 100px;
+  overflow-y: auto;
+}
